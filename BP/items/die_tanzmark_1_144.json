@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:die_tanzmark_1_144",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.smithing_templates"
+			}
+		},
+		"components": {
+			"minecraft:icon": "andring_die_tanzmark_1_144"
+		}
+	}
+}

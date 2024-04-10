@@ -1,0 +1,16 @@
+{
+	"format_version": "1.16.0",
+	"render_controllers": {
+		"controller.render.schwauss": {
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:raw_bronze_from_raw"
+		},
+		"ingredients": [
+			{
+				"item": "minecraft:raw_copper"
+			},
+			{
+				"item": "andring:raw_tin"
+			}
+		],
+		"result": [
+			{
+				"item": "andring:raw_bronze",
+				"count": 2
+			}
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"unlock": [
+			{
+				"item": "minecraft:raw_copper"
+			},
+			{
+				"item": "andring:raw_tin"
+			}
+		]
+	}
+}

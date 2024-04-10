@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:die_thrall",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.smithing_templates"
+			}
+		},
+		"components": {
+			"minecraft:icon": "andring_die_thrall",
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transform_templates"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:ringpop",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:icon": "andring_ringpop",
+			"minecraft:allow_off_hand": true,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 9
+			},
+			"minecraft:should_despawn": false
+		}
+	}
+}

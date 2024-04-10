@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:tanzmark_12_note",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "andring_tanzmark_12_note"
+			}
+		}
+	}
+}

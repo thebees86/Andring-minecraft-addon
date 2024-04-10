@@ -1,0 +1,78 @@
+{
+    "format_version": "1.16.0", //note we are on format version 1.16.0
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.copper_pike", // this uses the same geometry we defined for the block previously
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 4,
+                "visible_bounds_height": 4.5,
+                "visible_bounds_offset": [0, 0.75, 0]
+            },
+            "bones": [
+                {
+                    "name": "root",
+					//this is what will ensure that we bind to the correct slot
+					//currently, q.item_slot_to_bone_name only returns hand slots
+					//therefore, we must build in a special case if we'd like our item to be useable in the head slot
+                    "binding": "q.item_slot_to_bone_name(c.item_slot)",
+                    "pivot": [0, 8, 0]
+                },
+                {
+                    "name": "root_x", //we define these extra bones for x, y, & z axes to make applying pseudo-display settings easier
+                    "parent": "root",
+                    "pivot": [0, 8, 0]
+                },
+                {
+                    "name": "root_y",
+                    "parent": "root_x",
+                    "pivot": [0, 8, 0]
+                },
+                {
+                    "name": "root_z",
+                    "parent": "root_y",
+                    "pivot": [0, 8, 0],
+                    "cubes": [
+						{"origin": [22, 0, 23], "size": [2, 1, 1], "uv": [32, 4]},
+						{"origin": [19, 0, 20], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [21, 0, 22], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [13, 0, 14], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [7, 0, 8], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [1, 0, 2], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [17, 0, 18], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [11, 0, 12], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [5, 0, 6], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [-1, 0, 0], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [15, 0, 16], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [9, 0, 10], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [3, 0, 4], "size": [3, 1, 1], "uv": [0, 22]},
+						{"origin": [-4, 0, -2], "size": [4, 1, 1], "uv": [8, 4]},
+						{"origin": [18, 0, 19], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [20, 0, 21], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [12, 0, 13], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [6, 0, 7], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [0, 0, 1], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [16, 0, 17], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [10, 0, 11], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [4, 0, 5], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [-5, 0, -1], "size": [6, 1, 1], "uv": [8, 22]},
+						{"origin": [-6, 0, 0], "size": [3, 1, 1], "uv": [12, 0]},
+						{"origin": [-6, 0, 1], "size": [2, 1, 1], "uv": [18, 4]},
+						{"origin": [14, 0, 15], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [8, 0, 9], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [2, 0, 3], "size": [3, 1, 1], "uv": [0, 20]},
+						{"origin": [-5, 0, -3], "size": [5, 1, 1], "uv": [0, 0]},
+						{"origin": [-6, 0, -4], "size": [7, 1, 1], "uv": [0, 2]},
+						{"origin": [-7, 0, -5], "size": [5, 1, 1], "uv": [22, 6]},
+						{"origin": [-8, 0, -6], "size": [5, 1, 1], "uv": [22, 0]},
+						{"origin": [-8, 0, -7], "size": [4, 1, 1], "uv": [24, 2]},
+						{"origin": [-8, 0, -8], "size": [3, 1, 1], "uv": [24, 4]},
+						{"origin": [-1, 0, -5], "size": [3, 1, 1], "uv": [16, 2]},
+						{"origin": [0, 0, -6], "size": [2, 1, 1], "uv": [18, 4]}
+					]
+				}
+	    	]
+        }
+    ]
+}

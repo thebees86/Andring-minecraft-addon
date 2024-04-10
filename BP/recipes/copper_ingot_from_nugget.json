@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:copper_ingot_from_nugget"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "andring:copper_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:copper_ingot"
+			}
+		],
+		"unlock": [
+			{
+				"item": "andring:copper_nugget"
+			}
+		]
+	}
+}

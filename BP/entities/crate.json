@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "andring:crate",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:inventory": {
+				"container_type": "minecart_chest",
+				"can_be_siphoned_from": true
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.8
+			},
+			"minecraft:balloonable": {},
+			"minecraft:buoyant": {
+				"base_buoyancy": 1,
+				"apply_gravity": true,
+				"simulate_waves": true,
+				"big_wave_probability": 0.03,
+				"big_wave_speed": 10,
+				"drag_down_on_buoyancy_removed": 0,
+				"liquid_blocks": [
+					"minecraft:water",
+					"minecraft:flowing_water"
+				]
+			},
+			"minecraft:is_stackable": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:leashable": {
+				"can_be_stolen": true
+			},
+			"minecraft:persistent": {},
+			"minecraft:type_family": {
+				"family": [
+					"inanimate"
+				]
+			}
+		}
+	}
+}

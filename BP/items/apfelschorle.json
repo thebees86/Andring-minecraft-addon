@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:apfelschorle",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.potion"
+			}
+		},
+		"components": {
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation_modifier": 0.3,
+				"using_converts_to": "minecraft:glass_bottle"
+			},
+			"minecraft:icon": "andring_apfelschorle",
+			"minecraft:use_animation": "drink",
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6,
+				"movement_modifier": 0.5
+			},
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

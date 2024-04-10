@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "andring:schwauss_model_25",
+        "materials": {
+          "default": "skeleton"
+        },
+        "textures": {
+          "default": "textures/entity/schwauss/model_25"
+        },
+        "geometry": {
+          "default": "geometry.schwauss_model_25"
+        },
+        "render_controllers": [
+          "controller.render.schwauss"
+        ],
+        "enable_attachables": false,
+        "spawn_egg": {
+          "texture": "model_25",
+		  "texture_index": 0
+        }
+      }
+    }
+  }

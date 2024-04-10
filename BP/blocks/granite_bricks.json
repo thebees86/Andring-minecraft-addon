@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:granite_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
+		},
+		"components": {}
+	}
+}

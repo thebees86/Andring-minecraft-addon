@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.spear": {
+			"textures": [
+				"Texture.spear" //This is the texture you defined in the 'textures' object in player.entity.json
+			],
+			"geometry": "Geometry.spear", //This is the geometry you defined in the 'geometries' object in player.entity.json
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			]
+		}
+	}
+}

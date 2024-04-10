@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:pork_soup"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:porkchop"
+			},
+			{
+				"item": "minecraft:bowl"
+			},
+			{
+				"item": "minecraft:carrot"
+			},
+			{
+				"item": "minecraft:potato"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:porkchop"
+			}
+		],
+		"result": [
+			{
+				"item": "andring:pork_soup"
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"TheBees86"
+		]
+	},
+	"header": {
+		"name": "Andring v2",
+		"description": "A pack created by TheBees86 for the world of Andring",
+		"min_engine_version": [
+			1,
+			20,
+			60
+		],
+		"uuid": "b6558515-ffaf-4461-9f50-280e4e3529bc",
+		"version": [
+			1,
+			0,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "062cccd0-af4f-4cca-90bc-303a49558098",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "6dd3ac33-4cbb-4f24-a9ef-120d6bafd200",
+			"version": [
+				1,
+				0,
+				2
+			]
+		}
+	]
+}

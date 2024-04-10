@@ -1,0 +1,102 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+	"description": {
+	  "identifier": "andring:schwauss_model_15",
+	  "is_spawnable": true,
+	  "is_summonable": true,
+	  "is_experimental": false
+	},
+
+	"component_groups": {},
+
+	"components": {
+	"minecraft:type_family": {
+		"family": [
+			"schwauss",
+			"model_15",
+			"vehicle",
+			"mob"
+		]
+	},
+	"minecraft:loot": {
+	  "table": "loot_tables/entities/schwauss_model_15.json"
+	},
+	"minecraft:is_tamed": {},
+	"minecraft:rideable": {
+	  "seat_count": 1,
+	  "crouching_skip_interact": true,
+	  "family_types": [
+		"player"
+	  ],
+	  "interact_text": "Drive!",
+	  "seats": {
+		"position": [
+		  0,
+		  0.3,
+		  -0.02
+		]
+	  }
+	},
+	"minecraft:equippable": {},
+	"minecraft:collision_box": {
+		"width": 1.0,
+		"height": 0.8
+	},
+	"minecraft:nameable": {},
+	"minecraft:health": {
+		"value": 24
+	},
+	"minecraft:physics": {},
+	"minecraft:movement.basic": {},
+	"minecraft:behavior.player_ride_tamed": {},
+	"minecraft:movement": {
+		"value": 0.17
+	},
+	"minecraft:inventory": {
+		"container_type": "horse",
+		"inventory_size": 15
+	},
+	"minecraft:equippable": {},
+	"minecraft:is_chested": {},
+	"minecraft:input_ground_controlled": {},
+	"minecraft:balloonable": {},
+	"minecraft:healable": {
+        "items": [
+          {
+            "item": "iron_ingot",
+            "heal_amount": 8
+          }
+        ]
+      },
+	"minecraft:pushable": {
+		"is_pushable": false,
+		"is_pushable_by_piston": true
+	},
+	"minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 60.0,
+          "max_dropped_ticks": 20,
+          "use_motion_prediction_hints": true
+        },
+        "conditional_values": [
+          {
+            "max_optimized_distance": 0.0,
+            "max_dropped_ticks": 0,
+            "use_motion_prediction_hints": true,
+            "conditional_values": [
+              {
+                "test": "is_moving",
+                "subject": "self",
+                "operator": "==",
+                "value": true
+              }
+            ]
+          }
+        ]
+	}
+	},
+
+	"events": {}
+  }
+}

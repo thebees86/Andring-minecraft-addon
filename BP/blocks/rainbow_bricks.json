@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:rainbow_bricks",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {}
+	}
+}

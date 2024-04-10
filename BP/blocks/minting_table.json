@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:minting_table",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"table_name": "Minting Table",
+				"crafting_tags": [
+					"andring:minting_table"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:thrall_minting"
+		},
+		"tags": [
+			"andring:minting_table"
+		],
+		"unlock": [
+			{
+				"item": "andring:gold_blank"
+			}
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:gold_nugget"
+			},
+			{
+				"item": "andring:die_thrall"
+			}
+		],
+		"result": {
+			"item": "andring:thrall"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:raw_tin",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "andring_raw_tin"
+			}
+		}
+	}
+}

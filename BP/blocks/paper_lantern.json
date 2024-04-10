@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:paper_lantern",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:light_emission": 12
+		}
+	}
+}

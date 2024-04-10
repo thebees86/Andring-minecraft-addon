@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "andring:concept",
+        "materials": {
+          "default": "skeleton"
+        },
+        "textures": {
+          "default": "textures/entity/concept"
+        },
+        "geometry": {
+          "default": "geometry.concept"
+        },
+        "render_controllers": [
+          "controller.render.schwauss"
+        ],
+        "enable_attachables": false,
+        "spawn_egg": {
+          "texture": "concept",
+		  "texture_index": 0
+        }
+      }
+    }
+  }

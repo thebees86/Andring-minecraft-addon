@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:white_sandstone_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.sandstone"
+			}
+		},
+		"components": {}
+	}
+}

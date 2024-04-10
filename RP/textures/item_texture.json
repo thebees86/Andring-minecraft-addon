@@ -1,0 +1,285 @@
+{
+	"resource_pack_name": "Andring v2",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"andring_black_cat_gem": {
+			"textures": "textures/items/black_cat_gem"
+		},
+		"andring_con": {
+			"textures": "textures/items/coin"
+		},
+		"andring_thrall": {
+			"textures": "textures/items/thrall"
+		},
+		"andring_tanzmark_6": {
+			"textures": "textures/items/tanzmark_6"
+		},
+		"andring_tanzmark_4": {
+			"textures": "textures/items/tanzmark_4"
+		},
+		"andring_tanzmark_3": {
+			"textures": "textures/items/tanzmark_3"
+		},
+		"andring_tanzmark_2": {
+			"textures": "textures/items/tanzmark_2"
+		},
+		"andring_tanzmark_1_2_right": {
+			"textures": "textures/items/tanzmark_1_2_right"
+		},
+		"andring_tanzmark_1_2_left": {
+			"textures": "textures/items/tanzmark_1_2_left"
+		},
+		"andring_tanzmrk_1_144": {
+			"textures": "textures/items/tanzmark_1_144"
+		},
+		"andring_tanzmark_1_12": {
+			"textures": "textures/items/tanzmark_1_12"
+		},
+		"andring_tanzmark_144_note": {
+			"textures": "textures/items/tanzmark_144_note"
+		},
+		"andring_tanzmark_144": {
+			"textures": "textures/items/tanzmark_144"
+		},
+		"andring_tanzmark_12_note": {
+			"textures": "textures/items/tanzmark_12_note"
+		},
+		"andring_tanzmark_12": {
+			"textures": "textures/items/tanzmark_12"
+		},
+		"andring_tanzmark_1": {
+			"textures": "textures/items/tanzmark_1"
+		},
+		"andring_tanzmark_0_note": {
+			"textures": "textures/items/tanzmark_0_note"
+		},
+		"andring_tanzmark_3_12_note": {
+			"textures": "textures/items/tanzmark_3_12_note"
+		},
+		"andring_apfelschorle": {
+			"textures": "textures/items/apfelschorle"
+		},
+		"andring_banhammer": {
+			"textures": "textures/items/banhammer"
+		},
+		"andring_bavningar": {
+			"textures": "textures/items/bavningar"
+		},
+		"andring_butter_soup": {
+			"textures": "textures/items/butter_soup"
+		},
+		"andring_dilok": {
+			"textures": "textures/items/dilok"
+		},
+		"andring_gold_scrap": {
+			"textures": "textures/items/gold_scrap"
+		},
+		"andring_hardtack": {
+			"textures": "textures/items/hardtack"
+		},
+		"andring_innertube": {
+			"textures": "textures/items/innertube"
+		},
+		"andring_kindness": {
+			"textures": "textures/items/kindness"
+		},
+		"andring_malcolm": {
+			"textures": "textures/items/malcolm"
+		},
+		"andring_pork_soup": {
+			"textures": "textures/items/pork_soup"
+		},
+		"andring_potato_cloth": {
+			"textures": "textures/items/potato_cloth"
+		},
+		"andring_ringpop": {
+			"textures": "textures/items/ringpop"
+		},
+		"andring_schwul_essence": {
+			"textures": "textures/items/schwul_essence"
+		},
+		"andring_seed_porridge": {
+			"textures": "textures/items/seed_porridge"
+		},
+		"model_9": {
+			"textures": "textures/items/model_9"
+		},
+		"model_10": {
+			"textures": "textures/items/model_10"
+		},
+		"model_11": {
+			"textures": "textures/items/model_11"
+		},
+		"model_13s": {
+			"textures": "textures/items/model_13s"
+		},
+		"model_15": {
+			"textures": "textures/items/model_15"
+		},
+		"model_15r": {
+			"textures": "textures/items/model_15r"
+		},
+		"model_15ff": {
+			"textures": "textures/items/model_15ff"
+		},
+		"model_20": {
+			"textures": "textures/items/model_20"
+		},
+		"model_20b": {
+			"textures": "textures/items/model_20b"
+		},
+		"model_21": {
+			"textures": "textures/items/model_21"
+		},
+		"model_25c": {
+			"textures": "textures/items/model_25c"
+		},
+		"model_25": {
+			"textures": "textures/items/model_25"
+		},
+		"model_25sp": {
+			"textures": "textures/items/model_25sp"
+		},
+		"model_30": {
+			"textures": "textures/items/model_30"
+		},
+		"model_31": {
+			"textures": "textures/items/model_31"
+		},
+		"model_40": {
+			"textures": "textures/items/model_40"
+		},
+		"model_40g": {
+			"textures": "textures/items/model_40g"
+		},
+		"model_40l": {
+			"textures": "textures/items/model_40l"
+		},
+		"tyo": {
+			"textures": "textures/items/tyo"
+		},
+		"andring_tin_ingot": {
+			"textures": "textures/items/tin_ingot"
+		},
+		"andring_raw_tin": {
+			"textures": "textures/items/raw_tin"
+		},
+		"andring_raw_bronze": {
+			"textures": "textures/items/raw_bronze"
+		},
+		"andring_bronze_ingot": {
+			"textures": "textures/items/bronze_ingot"
+		},
+		"andring_apple_green": {
+			"textures": "textures/items/apple_green"
+		},
+		"andring_blank_die": {
+			"textures": "textures/items/blank_die"
+		},
+		"andring_blank_stamp": {
+			"textures": "textures/items/blank_stamp"
+		},
+		"andring_copper_nugget": {
+			"textures": "textures/items/copper_nugget"
+		},
+		"andring_die_con": {
+			"textures": "textures/items/die_con"
+		},
+		"andring_die_tanzmark_1": {
+			"textures": "textures/items/die_tanzmark_1"
+		},
+		"andring_die_tanzmark_1_12": {
+			"textures": "textures/items/die_tanzmark_1_12"
+		},
+		"andring_die_tanzmark_1_144": {
+			"textures": "textures/items/die_tanzmark_1_144"
+		},
+		"andring_die_tanzmark_2": {
+			"textures": "textures/items/die_tanzmark_2"
+		},
+		"andring_die_tanzmark_3": {
+			"textures": "textures/items/die_tanzmark_3"
+		},
+		"andring_die_tanzmark_4": {
+			"textures": "textures/items/die_tanzmark_4"
+		},
+		"andring_die_tanzmark_6": {
+			"textures": "textures/items/die_tanzmark_6"
+		},
+		"andring_die_tanzmark_12": {
+			"textures": "textures/items/die_tanzmark_12"
+		},
+		"andring_die_tanzmark_144": {
+			"textures": "textures/items/die_tanzmark_144"
+		},
+		"andring_die_thrall": {
+			"textures": "textures/items/die_thrall"
+		},
+		"andring_stamp_0_tanzmark": {
+			"textures": "textures/items/stamp_0_tanzmark"
+		},
+		"andring_stamp_3_12_tanzmark": {
+			"textures": "textures/items/stamp_3_12_tanzmark"
+		},
+		"andring_stamp_12_tanzmark": {
+			"textures": "textures/items/stamp_12_tanzmark"
+		},
+		"andring_stamp_144_tanzmark": {
+			"textures": "textures/items/stamp_144_tanzmark"
+		},
+		"andring_vindar": {
+			"textures": "textures/items/vindar"
+		},
+		"andring_gryningen": {
+			"textures": "textures/items/gryningen"
+		},
+		"andring_tanzmark_1_2": {
+			"textures": "textures/items/tanzmark_1_2_right"
+		},
+		"andring_ruby": {
+			"textures": "textures/items/ruby-3272542565"
+		},
+		"andring_darkstone_gem": {
+			"textures": "textures/items/darkstone_gem"
+		},
+		"andring_cole": {
+			"textures": "textures/items/cole"
+		},
+		"andring_vodka": {
+			"textures": "textures/items/vodka"
+		},
+		"andring_rum": {
+			"textures": "textures/items/rum"
+		},
+		"andring_bronze_helmet": {
+			"textures": "textures/items/bronze_helmet"
+		},
+		"andring_bronze_chestplate": {
+			"textures": "textures/items/bronze_chestplate"
+		},
+		"andring_bronze_leggings": {
+			"textures": "textures/items/bronze_leggings"
+		},
+		"andring_bronze_boots": {
+			"textures": "textures/items/bronze_boots"
+		},
+		"andring_bronze_axe": {
+			"textures": "textures/items/bronze_axe"
+		},
+		"andring_bronze_hoe": {
+			"textures": "textures/items/bronze_hoe"
+		},
+		"andring_bronze_pickaxe": {
+			"textures": "textures/items/bronze_pickaxe"
+		},
+		"andring_bronze_shovel": {
+			"textures": "textures/items/bronze_shovel"
+		},
+		"andring_bronze_sword": {
+			"textures": "textures/items/bronze_sword"
+		},
+		"andring_gold_blank": {
+			"textures": "textures/items/gold_blank"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:half_tanzmark_from_whole"
+		},
+		"ingredients": [
+			{
+				"item": "andring:tanzmark_1"
+			}
+		],
+		"result": [
+			{
+				"item": "andring:tanzmark_1_2",
+				"count": 2
+			}
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"unlock": [
+			{
+				"item": "andring:tanzmark_1"
+			}
+		]
+	}
+}

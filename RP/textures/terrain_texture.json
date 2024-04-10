@@ -1,0 +1,446 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 0,
+	"texture_data": {
+		"andring_jungle_bookshelf": {
+			"textures": [
+				"textures/blocks/jungle_bookshelf"
+			]
+		},
+		"andring_acacia_bookshelf": {
+			"textures": [
+				"textures/blocks/acacia_bookshelf"
+			]
+		},
+		"andring_spruce_bookshelf": {
+			"textures": [
+				"textures/blocks/spruce_bookshelf"
+			]
+		},
+		"andring_birch_bookshelf": {
+			"textures": [
+				"textures/blocks/birch_bookshelf"
+			]
+		},
+		"andring_dark_oak_bookshelf": {
+			"textures": [
+				"textures/blocks/dark_oak_bookshelf"
+			]
+		},
+		"brick": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/brick_0"
+					},
+					{
+						"path": "textures/blocks/brick_1"
+					},
+					{
+						"path": "textures/blocks/brick_2"
+					},
+					{
+						"path": "textures/blocks/brick_3"
+					}
+				]
+			}
+		},
+		"andring_cream_city_brick": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/cream_city_brick_0"
+					},
+					{
+						"path": "textures/blocks/cream_city_brick_1"
+					},
+					{
+						"path": "textures/blocks/cream_city_brick_2"
+					},
+					{
+						"path": "textures/blocks/cream_city_brick_3"
+					}
+				]
+			}
+		},
+		"andring_diorite_bricks": {
+			"textures": [
+				"textures/blocks/diorite_bricks"
+			]
+		},
+		"andring_andesite_bricks": {
+			"textures": [
+				"textures/blocks/andesite_bricks"
+			]
+		},
+		"andring_granite_bricks": {
+			"textures": [
+				"textures/blocks/granite_bricks"
+			]
+		},
+		"andring_ruby_ore": {
+			"textures": [
+				"textures/blocks/ruby_ore"
+			]
+		},
+		"andring_darkstone_ore": {
+			"textures": [
+				"textures/blocks/darkstone_ore"
+			]
+		},
+		"andring_black_cat_ore": {
+			"textures": [
+				"textures/blocks/black_cat_ore"
+			]
+		},
+		"andring_blue_granite": {
+			"textures": [
+				"textures/blocks/blue_granite",
+				"textures/blocks/blue_granite",
+				"textures/blocks/blue_granite"
+			]
+		},
+		"netherreactor": {
+			"textures": [
+				"textures/blocks/netherreactor"
+			]
+		},
+		"andring_blue_granite_bricks": {
+			"textures": [
+				"textures/blocks/blue_granite_bricks"
+			],
+			"textures_copy": {
+				"variations": [
+					{
+						"path": "textures/blocks/brick_0"
+					},
+					{
+						"path": "textures/blocks/brick_1"
+					},
+					{
+						"path": "textures/blocks/brick_2"
+					},
+					{
+						"path": "textures/blocks/brick_3"
+					}
+				]
+			}
+		},
+		"andring_black_brick": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/black_brick_0"
+					},
+					{
+						"path": "textures/blocks/black_brick_1"
+					},
+					{
+						"path": "textures/blocks/black_brick_2"
+					},
+					{
+						"path": "textures/blocks/black_brick_3"
+					}
+				]
+			}
+		},
+		"andring_gray_brick": {
+			"textures": {
+				"variations": [
+					{
+						"path": "textures/blocks/gray_brick_0"
+					},
+					{
+						"path": "textures/blocks/gray_brick_1"
+					},
+					{
+						"path": "textures/blocks/gray_brick_2"
+					},
+					{
+						"path": "textures/blocks/gray_brick_3"
+					}
+				]
+			}
+		},
+		"andring_ruby_block": {
+			"textures": [
+				{
+					"path": "textures/blocks/ruby_block"
+				},
+				"textures/blocks/ruby_block"
+			]
+		},
+		"andring_andesite_bricks_carved": {
+			"textures": "textures/blocks/andesite_bricks_carved"
+		},
+		"andring_andesite_bricks_wide": {
+			"textures": "textures/blocks/andesite_bricks_wide"
+		},
+		"andring_blue_brick": {
+			"textures": "textures/blocks/blue_brick_0"
+		},
+		"andring_blue_granite_bricks_carved": {
+			"textures": "textures/blocks/blue_granite_bricks_carved"
+		},
+		"andring_blue_granite_smooth": {
+			"textures": "textures/blocks/blue_granite_smooth"
+		},
+		"andring_bronze_ore": {
+			"textures": "textures/blocks/bronze_ore"
+		},
+		"andring_black_floor_tiling": {
+			"textures": "textures/blocks/black_floor_tiling"
+		},
+		"andring_blue_floor_tiling": {
+			"textures": "textures/blocks/blue_floor_tiling"
+		},
+		"andring_brown_brick": {
+			"textures": "textures/blocks/brown_brick_0"
+		},
+		"andring_brown_floor_tiling": {
+			"textures": "textures/blocks/brown_floor_tiling"
+		},
+		"andring_clay_brick": {
+			"textures": "textures/blocks/clay_brick"
+		},
+		"andring_cyan_brick": {
+			"textures": "textures/blocks/cyan_brick_0"
+		},
+		"andring_cyan_floor_tiling": {
+			"textures": "textures/blocks/cyan_floor_tiling"
+		},
+		"andring_darkstone_block": {
+			"textures": "textures/blocks/darkstone_block"
+		},
+		"andring_diorite_bricks_carved": {
+			"textures": "textures/blocks/diorite_bricks_carved"
+		},
+		"andring_dirt_brick": {
+			"textures": "textures/blocks/dirt_brick_0"
+		},
+		"andring_granite_bricks_carved": {
+			"textures": "textures/blocks/granite_bricks_carved"
+		},
+		"andring_gray_floor_tiling": {
+			"textures": "textures/blocks/gray_floor_tiling"
+		},
+		"andring_green_brick": {
+			"textures": "textures/blocks/green_brick_0"
+		},
+		"andring_green_floor_tiling": {
+			"textures": "textures/blocks/green_floor_tiling"
+		},
+		"andring_smooth_slate": {
+			"textures": "textures/blocks/hearth_block_top"
+		},
+		"andring_herringbone_brick": {
+			"textures": "textures/blocks/herringbone_brick_0"
+		},
+		"andring_ice_bricks": {
+			"textures": "textures/blocks/ice_bricks"
+		},
+		"andring_indigo_stonebrick": {
+			"textures": "textures/blocks/indigo_stonebrick"
+		},
+		"andring_lamp": {
+			"textures": "textures/blocks/lamp"
+		},
+		"andring_light_blue_brick": {
+			"textures": "textures/blocks/light_blue_brick_0"
+		},
+		"andring_light_blue_floor_tiling": {
+			"textures": "textures/blocks/light_blue_floor_tiling"
+		},
+		"andring_light_gray_brick": {
+			"textures": "textures/blocks/light_gray_brick_0"
+		},
+		"andring_light_gray_floor_tiling": {
+			"textures": "textures/blocks/light_gray_floor_tiling"
+		},
+		"andring_lime_brick": {
+			"textures": "textures/blocks/lime_brick_0"
+		},
+		"andring_lime_floor_tiling": {
+			"textures": "textures/blocks/lime_floor_tiling"
+		},
+		"andring_limestone": {
+			"textures": "textures/blocks/limestone"
+		},
+		"andring_limestone_brick": {
+			"textures": "textures/blocks/dripstone_brick"
+		},
+		"andring_magenta_brick": {
+			"textures": "textures/blocks/magenta_brick_0"
+		},
+		"andring_magenta_floor_tiling": {
+			"textures": "textures/blocks/magenta_floor_tiling"
+		},
+		"andring_marble": {
+			"textures": "textures/blocks/marble"
+		},
+		"andring_marble_brick": {
+			"textures": "textures/blocks/marble_brick"
+		},
+		"andring_marble_brick_carved": {
+			"textures": "textures/blocks/marble_brick_carved"
+		},
+		"andring_mixed_stone_brick": {
+			"textures": "textures/blocks/mixed_stone_brick"
+		},
+		"andring_obsidian_brick": {
+			"textures": "textures/blocks/obsidian_brick"
+		},
+		"andring_orange_brick": {
+			"textures": "textures/blocks/orange_brick_0"
+		},
+		"andring_orange_floor_tiling": {
+			"textures": "textures/blocks/orange_floor_tiling"
+		},
+		"andring_paper_lantern": {
+			"textures": "textures/blocks/paper_lantern"
+		},
+		"andring_pink_brick": {
+			"textures": "textures/blocks/pink_brick_0"
+		},
+		"andring_pink_floor_tiling": {
+			"textures": "textures/blocks/pink_floor_tiling"
+		},
+		"andring_potato_pillar_side": {
+			"textures": "textures/blocks/potato_pillar_side"
+		},
+		"andring_potato_pillar_top": {
+			"textures": "textures/blocks/potato_pillar_top"
+		},
+		"andring_potato_brick": {
+			"textures": "textures/blocks/potato_brick_0"
+		},
+		"andring_prison_brick": {
+			"textures": "textures/blocks/prison_brick_0"
+		},
+		"andring_purple_brick": {
+			"textures": "textures/blocks/purple_brick_0"
+		},
+		"andring_purple_floor_tiling": {
+			"textures": "textures/blocks/purple_floor_tiling"
+		},
+		"andring_rainbow_bricks": {
+			"textures": "textures/blocks/rainbow_bricks_0"
+		},
+		"andring_rainbow_floor_tiling": {
+			"textures": "textures/blocks/rainbow_floor_tiling"
+		},
+		"andring_red_floor_tiling": {
+			"textures": "textures/blocks/red_floor_tiling"
+		},
+		"andring_sandstone_brick": {
+			"textures": "textures/blocks/sandstone_brick"
+		},
+		"andring_server_top": {
+			"textures": "textures/blocks/server_top"
+		},
+		"andring_server": {
+			"textures": "textures/blocks/server_front"
+		},
+		"andring_shattered_stone": {
+			"textures": "textures/blocks/shattered_stone"
+		},
+		"andring_smooth_stonebrick": {
+			"textures": "textures/blocks/smooth_stonebrick"
+		},
+		"andring_snow_brick": {
+			"textures": "textures/blocks/snow_brick"
+		},
+		"andring_soot_brick": {
+			"textures": "textures/blocks/soot_brick_0"
+		},
+		"andring_tiboink": {
+			"textures": "textures/blocks/tiboink"
+		},
+		"andring_tiboink_polished": {
+			"textures": "textures/blocks/tiboink_polished"
+		},
+		"andring_tiled_stonebrick": {
+			"textures": "textures/blocks/tiled_stone_brick"
+		},
+		"andring_white_brick": {
+			"textures": "textures/blocks/white_brick_0"
+		},
+		"andring_white_floor_tiling": {
+			"textures": "textures/blocks/white_floor_tiling"
+		},
+		"andring_white_sand": {
+			"textures": "textures/blocks/white_sand"
+		},
+		"andring_white_sandstone_top": {
+			"textures": "textures/blocks/white_sandstone_top"
+		},
+		"andring_white_sandstone_bottom": {
+			"textures": "textures/blocks/white_sandstone_bottom"
+		},
+		"andring_white_sandstone_side": {
+			"textures": "textures/blocks/white_sandstone_normal"
+		},
+		"andring_white_sandstone_bricks": {
+			"textures": "textures/blocks/white_sandstone_bricks"
+		},
+		"andring_white_sandstone_smooth": {
+			"textures": "textures/blocks/white_sandstone_smooth"
+		},
+		"andring_white_sandstone_cut": {
+			"textures": "textures/blocks/white_sandstone_top"
+		},
+		"andring_yellow_brick": {
+			"textures": "textures/blocks/yellow_brick_0"
+		},
+		"andring_yellow_floor_tiling": {
+			"textures": "textures/blocks/yellow_floor_tiling"
+		},
+		"andring_calcite_bricks": {
+			"textures": "textures/blocks/calcite_bricks"
+		},
+		"andring_white_sandstone_carved": {
+			"textures": "textures/blocks/white_sandstone_carved"
+		},
+		"andring_red_sandstone_brick": {
+			"textures": "textures/blocks/red_sandstone_brick"
+		},
+		"andring_latite": {
+			"textures": "textures/blocks/latite"
+		},
+		"andring_deepslate_bronze_ore": {
+			"textures": "textures/blocks/deepslate_bronze_ore"
+		},
+		"andring_deepslate_darkstone_ore": {
+			"textures": "textures/blocks/deepslate_darkstone_ore"
+		},
+		"andring_deepslate_black_cat_ore": {
+			"textures": "textures/blocks/deepslate_black_cat_ore"
+		},
+		"andring_deepslate_ruby_ore": {
+			"textures": "textures/blocks/deepslate_eruby_ore"
+		},
+		"andring_tin_ore": {
+			"textures": "textures/blocks/tin_ore"
+		},
+		"andring_deepslate_tin_ore": {
+			"textures": "textures/blocks/deepslate_tin_ore"
+		},
+		"andring_bronze_block": {
+			"textures": "textures/blocks/bronze_block"
+		},
+		"andring_tin_block": {
+			"textures": "textures/blocks/tin_block"
+		},
+		"andring_minting_table_front": {
+			"textures": "textures/blocks/minting_table_front"
+		},
+		"andring_minting_table_side": {
+			"textures": "textures/blocks/minting_table_side"
+		},
+		"andring_minting_table_bottom": {
+			"textures": "textures/blocks/minting_table_bottom"
+		}
+	}
+}

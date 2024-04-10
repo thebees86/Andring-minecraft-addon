@@ -1,0 +1,430 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"andring:cream_city_brick": {
+		"sound": "stone",
+		"textures": "andring_cream_city_brick"
+	},
+	"andring:diorite_bricks": {
+		"sound": "stone",
+		"textures": "andring_diorite_bricks"
+	},
+	"andring:andesite_bricks": {
+		"sound": "stone",
+		"textures": "andring_andesite_bricks"
+	},
+	"andring:granite_bricks": {
+		"sound": "stone",
+		"textures": "andring_granite_bricks"
+	},
+	"andring:blue_granite_bricks": {
+		"sound": "stone",
+		"textures": "andring_blue_granite_bricks"
+	},
+	"andring:blue_granite": {
+		"sound": "stone",
+		"textures": "andring_blue_granite"
+	},
+	"andring:black_brick": {
+		"sound": "stone",
+		"textures": "andring_black_brick"
+	},
+	"andring:gray_brick": {
+		"sound": "stone",
+		"textures": "andring_gray_brick"
+	},
+	"andring:black_cat_ore": {
+		"sound": "stone",
+		"textures": "andring_black_cat_ore"
+	},
+	"andring:ruby_ore": {
+		"sound": "stone",
+		"textures": "andring_ruby_ore"
+	},
+	"andring:ruby_block": {
+		"sound": "stone",
+		"textures": "andring_ruby_block"
+	},
+	"andring:jungle_bookshelf": {
+		"sound": "wood",
+		"textures": {
+			"up": "jungle_planks",
+			"down": "jungle_planks",
+			"side": "andring_jungle_bookshelf"
+		}
+	},
+	"andring:acacia_bookshelf": {
+		"sound": "wood",
+		"textures": {
+			"up": "acacia_planks",
+			"down": "acacia_planks",
+			"side": "andring_acacia_bookshelf"
+		}
+	},
+	"andring:spruce_bookshelf": {
+		"sound": "wood",
+		"textures": {
+			"up": "spruce_planks",
+			"down": "spruce_planks",
+			"side": "andring_spruce_bookshelf"
+		}
+	},
+	"andring:birch_bookshelf": {
+		"sound": "wood",
+		"textures": {
+			"up": "birch_planks",
+			"down": "birch_planks",
+			"side": "andring_birch_bookshelf"
+		}
+	},
+	"andring:dark_oak_bookshelf": {
+		"sound": "wood",
+		"textures": {
+			"up": "dark_oak_planks",
+			"down": "dark_oak_planks",
+			"side": "andring_dark_oak_bookshelf"
+		}
+	},
+	"andring:darkstone_ore": {
+		"sound": "stone",
+		"textures": "andring_darkstone_ore"
+	},
+	"andring:andesite_bricks_carved": {
+		"sound": "stone",
+		"textures": "andring_andesite_bricks_carved"
+	},
+	"andring:andesite_bricks_wide": {
+		"sound": "stone",
+		"textures": "andring_andesite_bricks_wide"
+	},
+	"andring:blue_brick": {
+		"sound": "stone",
+		"textures": "andring_blue_brick"
+	},
+	"andring:blue_granite_bricks_carved": {
+		"sound": "stone",
+		"textures": "andring_blue_granite_bricks_carved"
+	},
+	"andring:blue_granite_smooth": {
+		"sound": "stone",
+		"textures": "andring_blue_granite_smooth"
+	},
+	"andring:bronze_ore": {
+		"sound": "stone",
+		"textures": "andring_bronze_ore"
+	},
+	"andring:black_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_black_floor_tiling"
+	},
+	"andring:blue_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_blue_floor_tiling"
+	},
+	"andring:brown_brick": {
+		"sound": "stone",
+		"textures": "andring_brown_brick"
+	},
+	"andring:brown_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_brown_floor_tiling"
+	},
+	"andring:clay_brick": {
+		"sound": "stone",
+		"textures": "andring_clay_brick"
+	},
+	"andring:cyan_brick": {
+		"sound": "stone",
+		"textures": "andring_cyan_brick"
+	},
+	"andring:cyan_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_cyan_floor_tiling"
+	},
+	"andring:darkstone_block": {
+		"sound": "stone",
+		"textures": "andring_darkstone_block"
+	},
+	"andring:diorite_bricks_carved": {
+		"sound": "stone",
+		"textures": "andring_diorite_bricks_carved"
+	},
+	"andring:dirt_brick": {
+		"sound": "stone",
+		"textures": "andring_dirt_brick"
+	},
+	"andring:granite_bricks_carved": {
+		"sound": "stone",
+		"textures": "andring_granite_bricks_carved"
+	},
+	"andring:gray_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_gray_floor_tiling"
+	},
+	"andring:green_brick": {
+		"sound": "stone",
+		"textures": "andring_green_brick"
+	},
+	"andring:green_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_green_floor_tiling"
+	},
+	"andring:smooth_slate": {
+		"sound": "stone",
+		"textures": "andring_smooth_slate"
+	},
+	"andring:herringbone_brick": {
+		"sound": "stone",
+		"textures": "andring_herringbone_brick"
+	},
+	"andring:ice_bricks": {
+		"sound": "glass",
+		"textures": "andring_ice_bricks"
+	},
+	"andring:indigo_stonebrick": {
+		"sound": "stone",
+		"textures": "andring_indigo_stonebrick"
+	},
+	"andring:lamp": {
+		"sound": "glass",
+		"textures": "andring_lamp"
+	},
+	"andring:light_blue_brick": {
+		"sound": "stone",
+		"textures": "andring_light_blue_brick"
+	},
+	"andring:light_blue_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_light_blue_floor_tiling"
+	},
+	"andring:light_gray_brick": {
+		"sound": "stone",
+		"textures": "andring_light_gray_brick"
+	},
+	"andring:light_gray_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_light_gray_floor_tiling"
+	},
+	"andring:lime_brick": {
+		"sound": "stone",
+		"textures": "andring_lime_brick"
+	},
+	"andring:lime_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_lime_floor_tiling"
+	},
+	"andring:limestone_brick": {
+		"sound": "stone",
+		"textures": "andring_limestone_brick"
+	},
+	"andring:magenta_brick": {
+		"sound": "stone",
+		"textures": "andring_magenta_brick"
+	},
+	"andring:magenta_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_magenta_floor_tiling"
+	},
+	"andring:marble_brick": {
+		"sound": "stone",
+		"textures": "andring_marble_brick"
+	},
+	"andring:marble_brick_carved": {
+		"sound": "stone",
+		"textures": "andring_marble_brick_carved"
+	},
+	"andring:mixed_stone_brick": {
+		"sound": "stone",
+		"textures": "andring_mixed_stone_brick"
+	},
+	"andring:obsidian_brick": {
+		"sound": "stone",
+		"textures": "andring_obsidian_brick"
+	},
+	"andring:orange_brick": {
+		"sound": "stone",
+		"textures": "andring_orange_brick"
+	},
+	"andring:orange_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_orange_floor_tiling"
+	},
+	"andring:paper_lantern": {
+		"sound": "gravel",
+		"textures": "andring_paper_lantern"
+	},
+	"andring:pink_brick": {
+		"sound": "stone",
+		"textures": "andring_pink_brick"
+	},
+	"andring:pink_floor_tiling": {
+		"sound": "deepslate",
+		"textures": "andring_pink_floor_tiling"
+	},
+	"andring:potato_brick": {
+		"sound": "stone",
+		"textures": "andring_potato_brick"
+	},
+	"andring:prison_brick": {
+		"sound": "stone",
+		"textures": "andring_prison_brick"
+	},
+	"andring:purple_brick": {
+		"sound": "stone",
+		"textures": "andring_purple_brick"
+	},
+	"andring:purple_floor_tiling": {
+		"sound": "stone",
+		"textures": "andring_purple_floor_tiling"
+	},
+	"andring:rainbow_bricks": {
+		"sound": "stone",
+		"textures": "andring_rainbow_bricks"
+	},
+	"andring:rainbow_floor_tiling": {
+		"sound": "stone",
+		"textures": "andring_rainbow_floor_tiling"
+	},
+	"andring:red_floor_tiling": {
+		"sound": "stone",
+		"textures": "andring_red_floor_tiling"
+	},
+	"andring:sandstone_brick": {
+		"sound": "stone",
+		"textures": "andring_sandstone_brick"
+	},
+	"andring:server": {
+		"sound": "metal",
+		"textures": {
+			"up": "andring_server_top",
+			"side": "andring_server",
+			"down": "andring_server_top"
+		}
+	},
+	"andring:shattered_stone": {
+		"sound": "stone",
+		"textures": "andring_shattered_stone"
+	},
+	"andring:smooth_stonebrick": {
+		"sound": "stone",
+		"textures": "andring_smooth_stonebrick"
+	},
+	"andring:snow_brick": {
+		"sound": "stone",
+		"textures": "andring_snow_brick"
+	},
+	"andring:soot_brick": {
+		"sound": "stone",
+		"textures": "andring_soot_brick"
+	},
+	"andring:tiboink": {
+		"sound": "stone",
+		"textures": "andring_tiboink"
+	},
+	"andring:tiboink_polished": {
+		"sound": "stone",
+		"textures": "andring_tiboink_polished"
+	},
+	"andring:tiled_stonebrick": {
+		"sound": "stone",
+		"textures": "andring_tiled_stonebrick"
+	},
+	"andring:white_brick": {
+		"sound": "stone",
+		"textures": "andring_white_brick"
+	},
+	"andring:white_floor_tiling": {
+		"sound": "stone",
+		"textures": "andring_white_floor_tiling"
+	},
+	"andring:white_sand": {
+		"sound": "sand",
+		"textures": "andring_white_sand"
+	},
+	"andring:white_sandstone": {
+		"sound": "stone",
+		"textures": {
+			"up": "andring_white_sandstone_top",
+			"down": "andring_white_sandstone_bottom",
+			"side": "andring_white_sandstone_side"
+		}
+	},
+	"andring:white_sandstone_bricks": {
+		"sound": "stone",
+		"textures": "andring_white_sandstone_bricks"
+	},
+	"andring:white_sandstone_smooth": {
+		"sound": "stone",
+		"textures": "andring_white_sandstone_smooth"
+	},
+	"andring:white_sandstone_cut": {
+		"sound": "stone",
+		"textures": "andring_white_sandstone_cut"
+	},
+	"andring:yellow_brick": {
+		"sound": "stone",
+		"textures": "andring_yellow_brick"
+	},
+	"andring:yellow_floor_tiling": {
+		"sound": "stone",
+		"textures": "andring_yellow_floor_tiling"
+	},
+	"andring:white_sandstone_carved": {
+		"sound": "stone",
+		"textures": "andring_white_sandstone_carved"
+	},
+	"andring:red_sandstone_brick": {
+		"sound": "stone",
+		"textures": "andring_red_sandstone_brick"
+	},
+	"andring:latite": {
+		"sound": "stone",
+		"textures": "andring_latite"
+	},
+	"andring:deepslate_bronze_ore": {
+		"sound": "deepslate",
+		"textures": "andring_deepslate_bronze_ore"
+	},
+	"andring:deepslate_darkstone_ore": {
+		"sound": "deepslate",
+		"textures": "andring_deepslate_darkstone_ore"
+	},
+	"andring:deepslate_black_cat_ore": {
+		"sound": "deepslate",
+		"textures": "andring_deepslate_black_cat_ore"
+	},
+	"andring:deepslate_ruby_ore": {
+		"sound": "deepslate",
+		"textures": "andring_deepslate_ruby_ore"
+	},
+	"andring:tin_ore": {
+		"sound": "stone",
+		"textures": "andring_tin_ore"
+	},
+	"andring:deepslate_tin_ore": {
+		"sound": "stone",
+		"textures": "andring_deepslate_tin_ore"
+	},
+	"andring:bronze_block": {
+		"sound": "stone",
+		"textures": "andring_bronze_block"
+	},
+	"andring:tin_block": {
+		"sound": "stone",
+		"textures": "andring_tin_block"
+	},
+	"andring:minting_table": {
+		"sound": "stone",
+		"textures": {
+			"up": "stone_slab",
+			"down": "andring_minting_table_bottom",
+			"north": "andring_minting_table_front",
+			"south": "andring_minting_table_front",
+			"east": "andring_minting_table_side",
+			"west": "andring_minting_table_side"
+		}
+	}
+}

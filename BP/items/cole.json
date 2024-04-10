@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:cole",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.record"
+			}
+		},
+		"components": {
+			"minecraft:icon": "andring_cole",
+			"minecraft:glint": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:record": {
+				"sound_event": "record.pigstep",
+				"comparator_signal": 2,
+				"duration": 69
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "andring:bronze_ingot_furnace"
+		},
+		"input": "andring:raw_bronze",
+		"output": "andring:bronze_ingot",
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		]
+	}
+}

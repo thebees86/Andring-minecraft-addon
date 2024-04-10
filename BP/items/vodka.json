@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:vodka",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.potion"
+			}
+		},
+		"components": {
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": 0.2,
+				"using_converts_to": "minecraft:glass_bottle"
+			},
+			"minecraft:icon": "andring_vodka",
+			"minecraft:use_animation": "drink",
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.5,
+				"use_duration": 1.6
+			},
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

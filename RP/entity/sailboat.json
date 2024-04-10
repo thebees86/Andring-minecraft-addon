@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "andring:sailboat",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/sailboat"
+			},
+			"geometry": {
+				"default": "geometry.sailboat"
+			},
+			"render_controllers": [
+				"controller.render.schwauss"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

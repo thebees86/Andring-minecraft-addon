@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "andring:tin_ingot"
+		},
+		"input": "andring:raw_tin",
+		"output": "andring:tin_ingot",
+		"tags": [
+			"blast_furnace",
+			"furnace"
+		]
+	}
+}

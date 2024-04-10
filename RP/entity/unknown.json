@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "andring:unknown",
+        "materials": {
+          "default": "skeleton"
+        },
+        "textures": {
+          "default": "textures/entity/unknown"
+        },
+        "geometry": {
+          "default": "geometry.unknown"
+        },
+        "render_controllers": [
+          "controller.render.schwauss"
+        ],
+        "enable_attachables": false
+      }
+    }
+  }
