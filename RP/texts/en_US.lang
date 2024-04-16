@@ -214,3 +214,6 @@ item.spawn_egg.entity.andring:sailboat.name=Spawn Sailboat
 entity.andring:sailboat.name=Sailboat
 item.spawn_egg.entity.andring:crate.name=Spawn Crate
 entity.andring:crate.name=Crate
+item.spawn_egg.entity.andring:better_minecart.name=Spawn Better Minecart
+entity.andring:better_minecart.name=Better Minecart
+item.andring:better_minecart_spawner=Better Minecart

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "andring:better_minecart",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/minecart"
+			},
+			"geometry": {
+				"default": "geometry.better_minecart"
+			},
+			"render_controllers": [
+				"controller.render.schwauss"
+			],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			},
+			"animations": {
+				"move": "animation.cert.move"
+			}
+		}
+	}
+}

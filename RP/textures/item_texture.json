@@ -280,6 +280,9 @@
 		},
 		"andring_gold_blank": {
 			"textures": "textures/items/gold_blank"
+		},
+		"andring_better_minecart_spawner": {
+			"textures": "textures/items/better_minecart_spawner"
 		}
 	}
 }

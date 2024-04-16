@@ -1,0 +1,23 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:better_minecart_spawner",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "minecart_normal"
+			},
+			"minecraft:entity_placer": {
+				"use_on": [
+					"minecraft:rail",
+					"minecraft:activator_rail",
+					"minecraft:detector_rail",
+					"minecraft:golden_rail"
+				],
+				"entity": "andring:better_minecart"
+			}
+		}
+	}
+}
