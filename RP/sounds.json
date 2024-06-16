@@ -1,0 +1,33 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"andring:test": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.test.zpig",
+					"hurt": "mob.test.zpighurt",
+					"death": "mob.test.zpigdeath",
+					"step": {
+						"sound": "mob.test.step",
+						"volume": 0.15,
+						"pitch": 1
+					},
+					"mad": {
+						"sound": "mob.test.zpigangry",
+						"volume": 2,
+						"pitch": [
+							1.44,
+							2.16
+						]
+					}
+				}
+			}
+		}
+	}
+}

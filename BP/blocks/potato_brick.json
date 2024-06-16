@@ -8,6 +8,8 @@
 				"group": "itemGroup.name.miscFood"
 			}
 		},
-		"components": {}
+		"components": {
+			"minecraft:loot": "loot_tables/potato_brick.json"
+		}
 	}
 }

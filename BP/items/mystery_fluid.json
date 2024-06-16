@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:mystery_fluid",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation_modifier": 0,
+				"can_always_eat": true,
+				"using_converts_to": "minecraft:bucket"
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "andring_mystery_fluid"
+				}
+			},
+			"minecraft:use_modifiers": {
+				"use_duration": 1.6,
+				"movement_modifier": 0.5
+			},
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

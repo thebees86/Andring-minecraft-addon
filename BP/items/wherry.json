@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:wherry",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.boat"
+			}
+		},
+		"components": {
+			"minecraft:entity_placer": {
+				"entity": "andring:sailboat"
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "andring_wherry"
+				}
+			}
+		}
+	}
+}

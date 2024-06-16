@@ -426,5 +426,24 @@
 			"east": "andring_minting_table_side",
 			"west": "andring_minting_table_side"
 		}
+	},
+	"andring:limestone": {
+		"sound": "stone",
+		"textures": "andring_limestone"
+	},
+	"andring:daub": {
+		"sound": "stone",
+		"textures": "andring_daub"
+	},
+	"andring:eye_block": {
+		"sound": "slime",
+		"textures": {
+			"side": "andring_eye_block_side",
+			"up": "andring_eye_block_side",
+			"north": "andring_eye_block_front",
+			"south": "andring_eye_block_back",
+			"east": "andring_eye_block_side",
+			"west": "andring_eye_block_side"
+		}
 	}
 }

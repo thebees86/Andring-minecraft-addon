@@ -441,6 +441,18 @@
 		},
 		"andring_minting_table_bottom": {
 			"textures": "textures/blocks/minting_table_bottom"
+		},
+		"andring_daub": {
+			"textures": "textures/blocks/daub"
+		},
+		"andring_eye_block_front": {
+			"textures": "textures/blocks/eye_front"
+		},
+		"andring_eye_block_side": {
+			"textures": "textures/blocks/eye_side"
+		},
+		"andring_eye_block_back": {
+			"textures": "textures/blocks/eye_back"
 		}
 	}
 }

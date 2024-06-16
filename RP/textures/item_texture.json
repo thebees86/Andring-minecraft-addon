@@ -283,6 +283,18 @@
 		},
 		"andring_better_minecart_spawner": {
 			"textures": "textures/items/better_minecart_spawner"
+		},
+		"andring_wherry": {
+			"textures": "textures/items/wherry"
+		},
+		"andring_crate_spawner": {
+			"textures": "textures/items/crate_spawner"
+		},
+		"andring_mystery_fluid": {
+			"textures": "textures/items/mystery_fluid"
+		},
+		"andring_potato_brick": {
+			"textures": "textures/blocks/potato_brick_0"
 		}
 	}
 }
