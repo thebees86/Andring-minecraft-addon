@@ -1,40 +1,40 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.60",
 	"minecraft:item": {
 		"description": {
 			"identifier": "andring:bronze_boots",
-			"category": "equipment"
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.boots"
+			}
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,
 			"minecraft:enchantable": {
-				"value": 9,
+				"value": 15,
 				"slot": "armor_feet"
 			},
 			"minecraft:durability": {
-				"max_durability": 195,
+				"max_durability": 130,
 				"damage_chance": {
 					"min": 60,
 					"max": 100
 				}
 			},
 			"minecraft:icon": {
-				"texture": "andring_bronze_boots"
-			},
-			"minecraft:armor": {
-				"protection": 2
+				"textures": {
+					"default": "andring_bronze_boots"
+				}
 			},
 			"minecraft:wearable": {
-				"slot": "slot.armor.feet"
-			},
-			"minecraft:creative_category": {
-				"parent": "itemGroup.name.boots"
+				"slot": "slot.armor.feet",
+				"protection": 1
 			},
 			"minecraft:repairable": {
 				"repair_items": [
 					{
 						"items": [
-							"minecraft:iron_ingot"
+							"andring:bronze_ingot"
 						],
 						"repair_amount": "query.max_durability * 0.25"
 					},

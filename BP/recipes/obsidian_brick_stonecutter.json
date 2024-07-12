@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:obsidian_brick_stonecutter"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:obsidian"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			}
+		],
+		"result": {
+			"item": "andring:obsidian_brick"
+		}
+	}
+}

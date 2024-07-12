@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "andring:deepslate_quartz_ore_feature"
+		},
+		"count": 5,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "andring:deepslate_quartz_ore",
+					"states": {}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					},
+					{
+						"name": "minecraft:tuff"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:gavel",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "andring_gavel"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:hand_equipped": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:weapon": {
+				"on_hit_block": {
+					"event": "andring:hammer_down"
+				}
+			}
+		},
+		"events": {
+			"andring:hammer_down": {
+				"run_command": {
+					"command": "playsound item.shield.block @a ~ ~ ~ 1 1.3"
+				}
+			}
+		}
+	}
+}

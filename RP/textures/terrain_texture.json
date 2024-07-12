@@ -103,9 +103,7 @@
 			]
 		},
 		"netherreactor": {
-			"textures": [
-				"textures/blocks/netherreactor"
-			]
+			"textures": "textures/blocks/netherreactor"
 		},
 		"andring_blue_granite_bricks": {
 			"textures": [
@@ -264,9 +262,6 @@
 		},
 		"andring_lime_floor_tiling": {
 			"textures": "textures/blocks/lime_floor_tiling"
-		},
-		"andring_limestone": {
-			"textures": "textures/blocks/limestone"
 		},
 		"andring_limestone_brick": {
 			"textures": "textures/blocks/dripstone_brick"
@@ -453,6 +448,78 @@
 		},
 		"andring_eye_block_back": {
 			"textures": "textures/blocks/eye_back"
+		},
+		"andring_flesh_block": {
+			"textures": "textures/blocks/flesh_block"
+		},
+		"andring_millstone_top": {
+			"textures": "textures/blocks/millstone_top"
+		},
+		"andring_millstone_side": {
+			"textures": "textures/blocks/millstone_side"
+		},
+		"parsnips_stage_0": {
+			"textures": "textures/blocks/parsnips_stage_0"
+		},
+		"parsnips_stage_1": {
+			"textures": "textures/blocks/parsnips_stage_1"
+		},
+		"parsnips_stage_2": {
+			"textures": "textures/blocks/parsnips_stage_2"
+		},
+		"parsnips_stage_3": {
+			"textures": "textures/blocks/parsnips_stage_3"
+		},
+		"andring_mashed_potato_block": {
+			"textures": "textures/blocks/mashed_potato"
+		},
+		"andring_stone_quartz_ore": {
+			"textures": "textures/blocks/stone_quartz_ore"
+		},
+		"flower_rose_blue": {
+			"textures": "textures/blocks/flower_rose_blue"
+		},
+		"andring_deepslate_quartz_ore": {
+			"textures": "textures/blocks/deepslate_quartz_ore"
+		},
+		"andring_planks_blue_spruce": {
+			"textures": "textures/blocks/planks_blue_spruce"
+		},
+		"andring_stripped_blue_spruce_log": {
+			"textures": "textures/blocks/stripped_blue_spruce_log"
+		},
+		"andring_stripped_blue_spruce_log_top": {
+			"textures": "textures/blocks/stripped_blue_spruce_log_top"
+		},
+		"andring_blue_spruce_log": {
+			"textures": "textures/blocks/log_blue_spruce"
+		},
+		"andring_blue_spruce_log_top": {
+			"textures": "textures/blocks/log_blue_spruce_top"
+		},
+		"andring_leaves_blue_spruce": {
+			"textures": "textures/blocks/leaves_blue_spruce"
+		},
+		"andring_sapling_blue_spruce": {
+			"textures": "textures/blocks/sapling_blue_spruce"
+		},
+		"onions_stage_0": {
+			"textures": "textures/blocks/onions_stage_0"
+		},
+		"onions_stage_1": {
+			"textures": "textures/blocks/onions_stage_1"
+		},
+		"onions_stage_2": {
+			"textures": "textures/blocks/onions_stage_2"
+		},
+		"onions_stage_3": {
+			"textures": "textures/blocks/onions_stage_3"
+		},
+		"andring_salt_block": {
+			"textures": "textures/blocks/salt_block"
+		},
+		"andring_wall_lantern": {
+			"textures": "textures/blocks/boat_blue_spruce"
 		}
 	}
 }

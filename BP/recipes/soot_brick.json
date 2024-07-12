@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:soot_brick"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" B ",
+			"BCB",
+			" B "
+		],
+		"key": {
+			"C": {
+				"item": "andring:charcoal_dust"
+			},
+			"B": {
+				"item": "minecraft:brick"
+			}
+		},
+		"unlock": [
+			{
+				"item": "andring:charcoal_dust"
+			}
+		],
+		"result": {
+			"item": "andring:soot_brick"
+		}
+	}
+}

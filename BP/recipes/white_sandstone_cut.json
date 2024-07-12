@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:white_sandstone_cut"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "andring:white_sandstone"
+			}
+		},
+		"unlock": [
+			{
+				"item": "andring:white_sandstone"
+			}
+		],
+		"result": {
+			"item": "andring:white_sandstone_cut",
+			"count": 4
+		}
+	}
+}

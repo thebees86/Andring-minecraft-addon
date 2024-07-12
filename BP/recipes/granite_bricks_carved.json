@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:granite_bricks_carved"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"unlock": [
+			{
+				"item": "andring:blue_granite_bricks"
+			}
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "andring:granite_bricks"
+			}
+		},
+		"result": [
+			{
+				"item": "andring:granite_bricks_carved"
+			}
+		]
+	}
+}

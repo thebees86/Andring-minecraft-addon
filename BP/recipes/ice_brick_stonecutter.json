@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:ice_brick_stonecutter"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:packed_ice"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:packed_ice"
+			}
+		],
+		"result": {
+			"item": "andring:ice_bricks"
+		}
+	}
+}

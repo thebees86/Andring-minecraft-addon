@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:andesite_bricks_stonecutter_conversion"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "andring:andesite_bricks_wide"
+			}
+		],
+		"unlock": [
+			{
+				"item": "andring:andesite_bricks_wide"
+			}
+		],
+		"result": [
+			{
+				"item": "andring:andesite_bricks"
+			}
+		]
+	}
+}

@@ -16,6 +16,12 @@
 				"textures": {
 					"default": "andring_wherry"
 				}
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:boat",
+					"minecraft:boats"
+				]
 			}
 		}
 	}

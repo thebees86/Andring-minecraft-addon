@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:calcite_bricks_carved"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"unlock": [
+			{
+				"item": "andring:marble_brick"
+			}
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "andring:marble_brick"
+			}
+		},
+		"result": [
+			{
+				"item": "andring:marble_brick_carved",
+				"count": 4
+			}
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:mashed_potato_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"unlock": [
+			{
+				"item": "minecraft:baked_potato"
+			}
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:baked_potato"
+			}
+		},
+		"result": [
+			{
+				"item": "andring:mashed_potato_block"
+			}
+		]
+	}
+}

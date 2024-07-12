@@ -1,0 +1,55 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tallcrop",
+				"texture_width": 32,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "crop",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, -1, -4],
+							"size": [16, 30, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [32, 16]}
+							}
+						},
+						{
+							"origin": [-8, -1, 4],
+							"size": [16, 30, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [32, 16]}
+							}
+						},
+						{
+							"origin": [-8, -1, 4],
+							"size": [16, 30, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"south": {"uv": [0, 0], "uv_size": [32, 16]}
+							}
+						},
+						{
+							"origin": [-8, -1, -4],
+							"size": [16, 30, 0],
+							"pivot": [0, 0, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [32, 16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

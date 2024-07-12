@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:blue_fish_cooked",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.rawFood"
+			}
+		},
+		"components": {
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation_modifier": 0.5
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "andring_blue_fish_cooked"
+				}
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.5,
+				"use_duration": 1.6
+			}
+		}
+	}
+}

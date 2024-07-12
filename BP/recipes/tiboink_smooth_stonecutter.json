@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:tiboink_smooth_stonecutter"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "andring:tiboink"
+			}
+		],
+		"unlock": [
+			{
+				"item": "andring:tiboink"
+			}
+		],
+		"result": [
+			{
+				"item": "andring:tiboink_polished"
+			}
+		]
+	}
+}

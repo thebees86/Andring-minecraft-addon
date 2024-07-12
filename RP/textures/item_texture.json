@@ -281,9 +281,6 @@
 		"andring_gold_blank": {
 			"textures": "textures/items/gold_blank"
 		},
-		"andring_better_minecart_spawner": {
-			"textures": "textures/items/better_minecart_spawner"
-		},
 		"andring_wherry": {
 			"textures": "textures/items/wherry"
 		},
@@ -295,6 +292,60 @@
 		},
 		"andring_potato_brick": {
 			"textures": "textures/blocks/potato_brick_0"
+		},
+		"andring_edible_dandelion": {
+			"textures": "textures/items/edible_dandelion"
+		},
+		"andring_flour": {
+			"textures": "textures/items/flour"
+		},
+		"andring_parsnip": {
+			"textures": "textures/items/parsnip"
+		},
+		"flower_blue_rose": {
+			"textures": "textures/blocks/flower_rose_blue"
+		},
+		"andring_sapling_blue_spruce": {
+			"textures": "textures/blocks/sapling_blue_spruce"
+		},
+		"andring_gavel": {
+			"textures": "textures/items/gavel"
+		},
+		"andring_onion": {
+			"textures": "textures/items/onion"
+		},
+		"andring_bronze_chainmail_helmet": {
+			"textures": "textures/items/bronze_chainmail_helmet"
+		},
+		"andring_bronze_chainmail_chestplate": {
+			"textures": "textures/items/bronze_chainmail_chestplate"
+		},
+		"andring_bronze_chainmail_leggings": {
+			"textures": "textures/items/bronze_chainmail_leggings"
+		},
+		"andring_bronze_chainmail_boots": {
+			"textures": "textures/items/bronze_chainmail_boots"
+		},
+		"andring_bronze_chainmail": {
+			"textures": "textures/items/bronze_chainmail"
+		},
+		"andring_chainmail": {
+			"textures": "textures/items/chainmail"
+		},
+		"andring_bronze_nugget": {
+			"textures": "textures/items/bronze_nugget"
+		},
+		"andring_charcoal_dust": {
+			"textures": "textures/items/charcoal_dust"
+		},
+		"andring_blue_fish": {
+			"textures": "textures/items/blue_fish"
+		},
+		"andring_blue_fish_cooked": {
+			"textures": "textures/items/blue_fish_cooked"
+		},
+		"andring_fish_soup": {
+			"textures": "textures/items/fish_soup"
 		}
 	}
 }

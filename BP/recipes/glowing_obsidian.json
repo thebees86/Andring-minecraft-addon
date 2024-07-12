@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:glowing_obsidian"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" R ",
+			"ROR",
+			" R "
+		],
+		"key": {
+			"R": {
+				"item": "minecraft:redstone"
+			},
+			"O": {
+				"item": "minecraft:obsidian"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			}
+		],
+		"result": {
+			"item": "minecraft:glowingobsidian"
+		}
+	}
+}

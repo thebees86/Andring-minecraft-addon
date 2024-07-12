@@ -358,11 +358,15 @@
 	},
 	"andring:white_sandstone_smooth": {
 		"sound": "stone",
-		"textures": "andring_white_sandstone_smooth"
+		"textures": "andring_white_sandstone_top"
 	},
 	"andring:white_sandstone_cut": {
 		"sound": "stone",
-		"textures": "andring_white_sandstone_cut"
+		"textures": {
+			"up": "andring_white_sandstone_top",
+			"down": "andring_white_sandstone_bottom",
+			"side": "andring_white_sandstone_smooth"
+		}
 	},
 	"andring:yellow_brick": {
 		"sound": "stone",
@@ -374,7 +378,11 @@
 	},
 	"andring:white_sandstone_carved": {
 		"sound": "stone",
-		"textures": "andring_white_sandstone_carved"
+		"textures": {
+			"up": "andring_white_sandstone_top",
+			"down": "andring_white_sandstone_bottom",
+			"side": "andring_white_sandstone_carved"
+		}
 	},
 	"andring:red_sandstone_brick": {
 		"sound": "stone",
@@ -427,10 +435,6 @@
 			"west": "andring_minting_table_side"
 		}
 	},
-	"andring:limestone": {
-		"sound": "stone",
-		"textures": "andring_limestone"
-	},
 	"andring:daub": {
 		"sound": "stone",
 		"textures": "andring_daub"
@@ -438,12 +442,113 @@
 	"andring:eye_block": {
 		"sound": "slime",
 		"textures": {
-			"side": "andring_eye_block_side",
 			"up": "andring_eye_block_side",
 			"north": "andring_eye_block_front",
 			"south": "andring_eye_block_back",
 			"east": "andring_eye_block_side",
-			"west": "andring_eye_block_side"
+			"west": "andring_eye_block_side",
+			"down": "andring_eye_block_side"
+		}
+	},
+	"andring:flesh_block": {
+		"sound": "slime",
+		"textures": "andring_flesh_block"
+	},
+	"andring:millstone": {
+		"sound": "stone",
+		"textures": {
+			"up": "andring_millstone_top",
+			"side": "andring_millstone_side",
+			"down": "furnace_top"
+		}
+	},
+	"andring:flower_rose_blue": {
+		"sound": "grass",
+		"textures": "flower_rose_blue"
+	},
+	"andring:onions": {
+		"sound": "grass"
+	},
+	"andring:parsnips": {
+		"sound": "grass"
+	},
+	"andring:mashed_potato_block": {
+		"sound": "stone",
+		"textures": "andring_mashed_potato_block"
+	},
+	"andring:stone_quartz_ore": {
+		"sound": "stone",
+		"textures": "andring_stone_quartz_ore"
+	},
+	"andring:deepslate_quartz_ore": {
+		"sound": "stone",
+		"textures": "andring_deepslate_quartz_ore"
+	},
+	"minecraft:netherreactor": {
+		"sound": "stone",
+		"textures": "netherreactor"
+	},
+	"andring:planks_blue_spruce": {
+		"sound": "wood",
+		"textures": "andring_planks_blue_spruce"
+	},
+	"andring:stripped_log_blue_spruce": {
+		"sound": "wood",
+		"textures": {
+			"down": "andring_stripped_blue_spruce_log_top",
+			"side": "andring_stripped_blue_spruce_log",
+			"up": "andring_stripped_blue_spruce_log_top"
+		}
+	},
+	"andring:log_blue_spruce": {
+		"sound": "wood",
+		"textures": {
+			"down": "andring_blue_spruce_log_top",
+			"side": "andring_blue_spruce_log",
+			"up": "andring_blue_spruce_log_top"
+		}
+	},
+	"andring:wood_blue_spruce": {
+		"sound": "wood",
+		"textures": "andring_blue_spruce_log"
+	},
+	"andring:stripped_wood_blue_spruce": {
+		"sound": "wood",
+		"textures": "andring_stripped_blue_spruce_log"
+	},
+	"andring:leaves_blue_spruce": {
+		"sound": "grass",
+		"textures": "andring_leaves_blue_spruce"
+	},
+	"andring:sapling_blue_spruce_block": {
+		"sound": "grass",
+		"textures": "andring_sapling_blue_spruce"
+	},
+	"andring:salt_block": {
+		"sound": "stone",
+		"textures": "andring_salt_block"
+	},
+	"andring:cobblestone_veneer": {
+		"sound": "stone",
+		"textures": "cobblestone"
+	},
+	"andring:wall_lantern": {
+		"sound": "lantern"
+	},
+	"andring:hay_slab": {
+		"sound": "grass",
+		"textures": {
+			"down": "hayblock_top",
+			"side": "hayblock_side",
+			"up": "hayblock_top"
+		}
+	},
+	"andring:double_hay_slab": {
+		"sound": "grass",
+		"textures": {
+			"down": "hayblock_top",
+			"side": "hayblock_side",
+			"up": "hayblock_top"
 		}
 	}
 }

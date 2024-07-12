@@ -1,0 +1,127 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:wall_lantern",
+			"properties": {
+				"andring:wall": [
+					-2,
+					-1,
+					0,
+					1,
+					2,
+					3
+				]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.wall_lantern",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lantern",
+					"render_method": "opaque",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:light_emission": 15,
+			"minecraft:on_player_placing": {
+				"event": "on_player_placing",
+				"target": "self"
+			},
+			"minecraft:selection_box": {
+				"size": [
+					6,
+					10,
+					4
+				],
+				"origin": [
+					-3,
+					4,
+					4
+				]
+			},
+			"minecraft:collision_box": {
+				"size": [
+					6,
+					10,
+					4
+				],
+				"origin": [
+					-3,
+					4,
+					4
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_property('andring:wall')==0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('andring:wall')==1",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('andring:wall')==2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('andring:wall')==3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('andring:wall')==-1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('andring:wall')==-2",
+				"components": {
+					"minecraft:rotation": [
+						-90,
+						0,
+						0
+					]
+				}
+			}
+		],
+		"events": {
+			"on_player_placing": {
+				"set_block_property": {
+					"andring:wall": "query.block_face-2"
+				}
+			}
+		}
+	}
+}

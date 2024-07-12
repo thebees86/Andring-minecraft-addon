@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:snow_brick"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:snow"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:snow"
+			}
+		],
+		"result": {
+			"item": "andring:snow_brick"
+		}
+	}
+}

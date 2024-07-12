@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:edible_dandelion",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			}
+		},
+		"components": {
+			"minecraft:food": {
+				"nutrition": 1,
+				"saturation_modifier": 0
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "andring_edible_dandelion"
+				}
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:block_placer": {
+				"block": "minecraft:yellow_flower"
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.5,
+				"use_duration": 1.6
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:salt_block",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:light_dampening": 7,
+			"minecraft:friction": 0.3
+		}
+	}
+}

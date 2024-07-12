@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "andring:white_sandstone_smooth_from_cut"
+		},
+		"input": "andring:white_sandstone_cut",
+		"output": "andring:white_sandstone_smooth",
+		"tags": [
+			"furnace"
+		]
+	}
+}

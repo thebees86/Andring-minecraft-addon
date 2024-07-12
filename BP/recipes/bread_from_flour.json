@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:bread_from_flour"
+		},
+		"pattern": [
+			"###"
+		],
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"tag": "andring:is_flour"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "andring:is_flour"
+			}
+		],
+		"result": [
+			{
+				"item": "minecraft:bread",
+				"count": 3
+			}
+		]
+	}
+}

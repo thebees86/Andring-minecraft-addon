@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:millstone"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"SSS",
+			"CRC",
+			"CCC"
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:smooth_stone_slab"
+			},
+			"C": {
+				"tag": "minecraft:stone_crafting_materials"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:stone_crafting_materials"
+			}
+		],
+		"result": [
+			{
+				"item": "andring:millstone"
+			}
+		]
+	}
+}

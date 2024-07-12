@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:flour",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:fuel": {
+				"duration": 0.2
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "andring_flour"
+				}
+			},
+			"minecraft:tags": {
+				"tags": [
+					"andring:is_flour"
+				]
+			}
+		}
+	}
+}

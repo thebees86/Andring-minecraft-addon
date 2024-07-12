@@ -1,0 +1,102 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:sapling_blue_spruce_block",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"states": {
+				"andring:growth_stage": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:geometry": "minecraft:geometry.cross",
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-6.5,
+					0,
+					-6.5
+				],
+				"size": [
+					13,
+					13,
+					13
+				]
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"minecraft:dirt",
+							"minecraft:grass_block",
+							"minecraft:podzol"
+						]
+					}
+				]
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "andring_sapling_blue_spruce",
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			},
+			"minecraft:loot": "loot_tables/blocks/blue_spruce_sapling.json",
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "andring:grow"
+				}
+			},
+			"minecraft:on_interact": {
+				"condition": "q.is_item_name_any('slot.weapon.mainhand', 'minecraft:bone_meal')",
+				"event": "andring:fertilize"
+			}
+		},
+		"events": {
+			"andring:grow": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": "summon lightning_bolt ~ ~ ~"
+						}
+					},
+					{
+						"condition": "q.block_state('andring:growth_stage') < 2",
+						"set_block_state": {
+							"andring:growth_stage": "q.block_state('andring:growth_stage') + 1"
+						}
+					},
+					{
+						"condition": "q.block_state('andring:growth_stage') == 2",
+						"run_command": {
+							"command": "structure load blue_spruce_tree ~-2 ~ ~-2"
+						}
+					}
+				]
+			},
+			"andring:fertilize": {
+				"decrement_stack": {},
+				"trigger": {
+					"event": "andring:grow"
+				},
+				"run_command": {
+					"command": [
+						"particle minecraft:crop_growth_emitter ~ ~ ~",
+						"playsound item.bone_meal.use @a[r=5] ~ ~ ~"
+					]
+				}
+			}
+		}
+	}
+}

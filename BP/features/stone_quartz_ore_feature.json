@@ -1,0 +1,43 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "andring:stone_quartz_ore_feature"
+		},
+		"count": 10,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "andring:stone_quartz_ore",
+					"states": {}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "stone"
+						}
+					},
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "andesite"
+						}
+					},
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "granite"
+						}
+					},
+					{
+						"name": "minecraft:stone",
+						"states": {
+							"stone_type": "diorite"
+						}
+					}
+				]
+			}
+		]
+	}
+}

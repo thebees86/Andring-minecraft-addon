@@ -1,1 +1,0 @@
-w @p Unable to teleport to specified destination.   Reason: area not yet developed

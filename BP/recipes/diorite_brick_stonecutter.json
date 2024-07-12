@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:diorite_brick_stonecutter"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"result": [
+			{
+				"item": "andring:diorite_bricks"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:diorite"
+			}
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:polished_diorite"
+			}
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:bronze_chainmail_alt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"IN",
+			"NI"
+		],
+		"key": {
+			"I": {
+				"item": "andring:bronze_ingot"
+			},
+			"N": {
+				"item": "andring:bronze_nugget"
+			}
+		},
+		"unlock": [
+			{
+				"item": "andring:bronze_ingot"
+			}
+		],
+		"result": {
+			"item": "andring:bronze_chainmail",
+			"count": 4
+		}
+	}
+}

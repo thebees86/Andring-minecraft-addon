@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:white_sandstone_from_sand"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "andring:white_sand"
+			}
+		},
+		"unlock": [
+			{
+				"item": "andring:white_sand"
+			}
+		],
+		"result": {
+			"item": "andring:white_sandstone"
+		}
+	}
+}

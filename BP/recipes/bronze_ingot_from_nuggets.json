@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:bronze_ingot_from_nuggets"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"NNN",
+			"NNN",
+			"NNN"
+		],
+		"key": {
+			"N": {
+				"item": "andring:bronze_nugget"
+			}
+		},
+		"unlock": [
+			{
+				"item": "andring:bronze_nugget"
+			}
+		],
+		"result": {
+			"item": "andring:bronze_ingot"
+		}
+	}
+}

@@ -15,7 +15,8 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 1
 			},
-			"minecraft:map_color": "#ffffff"
+			"minecraft:map_color": "#ffffff",
+			"minecraft:loot": "loot_tables/blue_granite.json"
 		}
 	}
 }

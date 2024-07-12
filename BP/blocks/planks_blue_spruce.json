@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "andring:planks_blue_spruce",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			}
+		},
+		"components": {
+			"minecraft:flammable": true,
+			"tag:wood": {},
+			"tag:andring:custom_planks": {}
+		}
+	}
+}

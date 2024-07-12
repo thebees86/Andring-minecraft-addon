@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:iron_chainmail_alt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"IN",
+			"NI"
+		],
+		"key": {
+			"I": {
+				"item": "minecraft:iron_ingot"
+			},
+			"N": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		],
+		"result": {
+			"item": "andring:chainmail",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:obsidian_brick"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:obsidian"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			}
+		],
+		"result": {
+			"item": "andring:obsidian_brick",
+			"count": 4
+		}
+	}
+}

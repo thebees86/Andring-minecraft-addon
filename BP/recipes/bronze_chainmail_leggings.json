@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:bronze_chainmail_leggings"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"BBB",
+			"B B",
+			"B B"
+		],
+		"key": {
+			"B": {
+				"item": "andring:bronze_chainmail"
+			}
+		},
+		"unlock": [
+			{
+				"item": "andring:bronze_chainmail"
+			}
+		],
+		"result": {
+			"item": "andring:bronze_chainmail_leggings"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "andring:hardtack"
+		},
+		"input": "minecraft:bread",
+		"output": "andring:hardtack",
+		"tags": [
+			"furnace",
+			"smoker"
+		]
+	}
+}

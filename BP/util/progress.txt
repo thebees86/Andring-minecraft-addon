@@ -1,0 +1,54 @@
+Updated to Survival Ready standard:
+* Blue Granite
+* Blue Granite Brick (2x2 Polished Blue Granite)
+* Diorite Brick (2x2 polished diorite)
+* Granite Brick (2x2 polished granite)
+* Tiboink (uncraftable, can be polished in stonecutter)
+* Millstone (also added)
+* Smooth Stone Brick (crafted with 2x2 smooth stone or smooth stone slabs)
+* Flesh Block
+* Bronze Tools (added crafting recipes, same as vanilla but with bronze ingots)
+* Bronze Armor (added crafting recipes, same as vanilla but with bronze ingots)
+* Bronze Chainmail Armor (added crafting recipes, same as vanilla but with bronze chainmail items)
+* Andesite Brick (2x2 Polished Andesite)
+* Calcite Brick (2x2 Calcite)
+* Hardtack (Cook bread in furnace or smoker)
+* Clay Brick (2x2 Clay Block)
+* Dripstone Brick (2x2 Dripstone)
+* Reinforced Dirt (2x2 Dirt)
+* Lamp (Glowstone Block & 4 Glass Pane in a cross)
+* Paper Lantern (Glowstone Block & 4 Paper in a cross)
+* Potato Brick (2x2 raw potato)
+* Red, White, Standard Sandstone Brick (2x2 Sandstone)
+* Obsidian Brick (2x2 Obsidian)
+* Soot Brick (Charcoal Dust & 4 Brick(item) in a cross)
+
+Added:
+* Flesh Block (crafted with 9 rotten flesh)
+* Eye Block
+* Millstone (crafted with 3 smooth stone slabs, 5 cobblestone, and 1 redstone dust in the center)
+* Mashed Potato Block
+* Overworld Quartz Ore
+* Parsnips
+* Blue roses
+* Blue Spruce wood
+* Blue Spruce trees (don't spawn naturally)
+* Gavel (crafted with 2 sticks, 1 gold ingot, 2 dark oak planks (like crafting a gold shovel, but with dark oak planks on the top row flanking the gold ingot)
+* Bronze and iron chainmail (2 nuggets and 2 ingots in a square, checkered)
+* Bronze chainmail armor
+* Charcoal Dust (used to craft soot bricks) (crafted from charcoal in crafting table or millstone)
+* Bluefin
+* Fish Soup
+* Hay Slab
+* Cobblestone Veneer (vertical slab)
+
+Features:
+* Paper can now be crafted with bamboo
+* Nether reactor crafting recipe (iron, diamond, iron x 3)
+* Old stonecutter crafting (2x2 cobblestone)
+* Saddles can now be crafted with 3 leather and 1 iron ingot
+* Blue roses can be crafted into light blue dye
+* Chainmail armor can be crafted with iron chainmail items
+* Glass can now be created in a blast furnace)
+
+Completed German translation!

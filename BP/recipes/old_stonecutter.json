@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "andring:old_stonecutter"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"result": [
+			{
+				"item": "minecraft:stonecutter"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:cobblestone"
+			}
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"tag": "minecraft:stone_crafting_materials"
+			}
+		}
+	}
+}

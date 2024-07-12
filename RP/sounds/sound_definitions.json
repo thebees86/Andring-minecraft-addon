@@ -1,74 +1,33 @@
 {
 	"sound_definitions": {
-		"mob.test.hurt": {
+		"mob.bluefin.flop": {
 			"category": "neutral",
 			"sounds": [
-				"sounds/mob/cow/hurt1",
-				"sounds/mob/cow/hurt2",
-				"sounds/mob/cow/hurt3"
+				"sounds/mob/fish/flop1",
+				"sounds/mob/fish/flop2",
+				"sounds/mob/fish/flop3",
+				"sounds/mob/fish/flop4"
 			]
 		},
-		"mob.test.say": {
+		"mob.bluefin.hurt": {
 			"category": "neutral",
 			"sounds": [
-				{
-					"name": "sounds/mob/cow/say1",
-					"load_on_low_memory": true
-				},
-				"sounds/mob/cow/say2",
-				"sounds/mob/cow/say3",
-				"sounds/mob/cow/say4"
+				"sounds/mob/fish/hurt1",
+				"sounds/mob/fish/hurt2",
+				"sounds/mob/fish/hurt3",
+				"sounds/mob/fish/hurt4"
 			]
 		},
-		"mob.test.step": {
+		"mob.bluefin.step": {
 			"category": "neutral",
 			"sounds": [
-				"sounds/mob/cow/step1",
-				"sounds/mob/cow/step2",
-				"sounds/mob/cow/step3",
-				"sounds/mob/cow/step4"
-			]
-		},
-		"mob.test.milk": {
-			"category": "neutral",
-			"sounds": [
-				"sounds/mob/cow/milk1",
-				"sounds/mob/cow/milk2",
-				"sounds/mob/cow/milk3"
-			]
-		},
-		"mob.test.zpig": {
-			"category": "hostile",
-			"sounds": [
-				"sounds/mob/test/zpig1",
-				"sounds/mob/test/zpig2",
-				"sounds/mob/test/zpig3",
-				"sounds/mob/test/zpig4"
-			]
-		},
-		"mob.test.zpigangry": {
-			"category": "hostile",
-			"sounds": [
-				"sounds/mob/test/zpigangry1",
-				"sounds/mob/test/zpigangry2",
-				"sounds/mob/test/zpigangry3",
-				"sounds/mob/test/zpigangry4"
-			]
-		},
-		"mob.test.zpigdeath": {
-			"category": "hostile",
-			"sounds": [
-				"sounds/mob/test/zpigdeath"
-			]
-		},
-		"mob.test.zpighurt": {
-			"category": "hostile",
-			"sounds": [
-				{
-					"name": "sounds/mob/test/zpighurt1",
-					"load_on_low_memory": true
-				},
-				"sounds/mob/test/zpighurt2"
+				"sounds/mob/fish/swim1",
+				"sounds/mob/fish/swim2",
+				"sounds/mob/fish/swim3",
+				"sounds/mob/fish/swim4",
+				"sounds/mob/fish/swim5",
+				"sounds/mob/fish/swim6",
+				"sounds/mob/fish/swim7"
 			]
 		}
 	}

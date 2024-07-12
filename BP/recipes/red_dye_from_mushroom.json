@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "andring:red_dye_from_mushroom"
+		},
+		"input": "minecraft:red_mushroom",
+		"output": "minecraft:red_dye",
+		"tags": [
+			"furnace"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "andring:sapling_blue_spruce",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.sapling"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"textures": {
+					"default": "andring_sapling_blue_spruce"
+				}
+			},
+			"minecraft:block_placer": {
+				"block": "andring:sapling_blue_spruce_block",
+				"use_on": [
+					"minecraft:dirt",
+					"minecraft:grass_block",
+					"minecraft:podzol"
+				]
+			}
+		}
+	}
+}

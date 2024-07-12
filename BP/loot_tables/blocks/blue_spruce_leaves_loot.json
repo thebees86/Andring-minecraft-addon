@@ -1,0 +1,23 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "stick",
+					"weight": 7
+				},
+				{
+					"type": "item",
+					"name": "andring:sapling_blue_spruce",
+					"weight": 5
+				},
+				{
+					"type": "empty",
+					"weight": 10
+				}
+			]
+		}
+	]
+}

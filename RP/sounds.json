@@ -27,6 +27,27 @@
 						]
 					}
 				}
+			},
+			"andring:bluefin": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.bluefin.hurt",
+					"hurt.in.water": "mob.bluefin.hurt",
+					"flop": {
+						"sound": "mob.bluefin.flop",
+						"volume": 1,
+						"pitch": 1
+					},
+					"step": {
+						"sound": "mob.bluefin.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
 			}
 		}
 	}

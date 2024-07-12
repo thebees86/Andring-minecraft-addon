@@ -2,7 +2,8 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "andring:bronze_shovel"
+			"identifier": "andring:bronze_shovel",
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:max_stack_size": 1,

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "andring:old_stonecutter_from_new"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"result": [
+			{
+				"item": "minecraft:stonecutter"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:stonecutter_block"
+			}
+		],
+		"ingredients": [
+			{
+				"item": "minecraft:stonecutter_block"
+			}
+		]
+	}
+}

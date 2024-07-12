@@ -6,7 +6,8 @@
 		},
 		"components": {
 			"minecraft:destructible_by_explosion": false,
-			"minecraft:light_emission": 3
+			"minecraft:light_emission": 3,
+			"minecraft:destructible_by_mining": false
 		}
 	}
 }

@@ -1,0 +1,99 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "${{PROJECT_PREFIX}}:stripped_${{IDENTIFIER}}_log",
+            "properties": {
+                "bridge:block_rotation": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        "components": {
+            "tag:wood": {},
+            "tag:log": {},
+            "tag:stripped_log": {},
+            "tag:fence-connectable": {},
+            "minecraft:unit_cube": {},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "${{IDENTIFIER}}_log_stripped",
+                    "render_method": "opaque",
+                    "ambient_occlusion": false,
+                    "face_dimming": true
+                },
+                "up": {
+                    "texture": "${{IDENTIFIER}}_log_top_stripped",
+                    "render_method": "opaque",
+                    "ambient_occlusion": false,
+                    "face_dimming": true
+                },
+                "down": {
+                    "texture": "${{IDENTIFIER}}_log_top_stripped",
+                    "render_method": "opaque",
+                    "ambient_occlusion": false,
+                    "face_dimming": true
+                }
+            },
+            "minecraft:creative_category": {
+                "category": "nature",
+                "group": "itemGroup.name.log"
+            },
+            "minecraft:flammable": {
+                "burn_odds": 5,
+                "flame_odds": 5
+            },
+            "minecraft:destroy_time": 3,
+            "minecraft:explosion_resistance": 3,
+            "minecraft:on_player_placing": {
+                "event": "bridge:update_rotation"
+            }
+        },
+        "events": {
+            "bridge:become_stripped": {
+                "set_block": {
+                    "block_type": "${{PROJECT_PREFIX}}:stripped_${{IDENTIFIER}}_log"
+                }
+            },
+            "bridge:update_rotation": {
+                "set_block_property": {
+                    "bridge:block_rotation": "math.floor(query.block_face / 2.0)"
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('bridge:block_rotation') == 0",
+                "components": {
+                    "minecraft:rotation": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "condition":"query.block_property('bridge:block_rotation') == 1",
+                "components": {
+                    "minecraft:rotation": [
+                        90,
+                        0,
+                        0
+                    ]
+                }
+            },
+            {
+                "condition":"query.block_property('bridge:block_rotation') == 2",
+                "components": {
+                    "minecraft:rotation": [
+                        0,
+                        90,
+                        -90
+                    ]
+                }
+            }
+        ]
+    }
+}

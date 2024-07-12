@@ -1,0 +1,39 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "andring:bluefin",
+			"materials": {
+				"default": "cod"
+			},
+			"textures": {
+				"default": "textures/entity/bluefin"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.ZRot = !query.is_in_water ? Math.cos((query.time_stamp + query.frame_alpha) * 0.25) * 90 : 0.0;",
+					"variable.AnimationAmountBlend = Math.lerp(variable.AnimationAmountPrev, variable.AnimationAmount, query.frame_alpha);"
+				]
+			},
+			"geometry": {
+				"default": "geometry.cod"
+			},
+			"animations": {
+				"flop": "animation.cod.flop",
+				"swim": "animation.cod.swim"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.fish.general"
+				}
+			],
+			"render_controllers": [
+				"controller.render.cod"
+			],
+			"spawn_egg": {
+				"base_color": "#6b9f93",
+				"overlay_color": "#adbedb"
+			}
+		}
+	}
+}

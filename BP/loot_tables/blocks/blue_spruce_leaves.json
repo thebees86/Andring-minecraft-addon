@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "andring:leaves_blue_spruce",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

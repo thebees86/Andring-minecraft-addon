@@ -8,14 +8,8 @@
 			"is_experimental": false
 		},
 		"components": {
-			"minecraft:underwater_movement": {
-				"value": 0.11
-			},
 			"minecraft:navigation.walk": {
 				"can_sink": false
-			},
-			"minecraft:movement": {
-				"value": 0.03
 			},
 			"minecraft:collision_box": {
 				"width": 2,
@@ -79,10 +73,8 @@
 			},
 			"minecraft:buoyant": {
 				"apply_gravity": true,
-				"base_buoyancy": 1,
-				"big_wave_probability": 0.03,
-				"big_wave_speed": 10,
-				"simulate_waves": true,
+				"base_buoyancy": 0.65,
+				"simulate_waves": false,
 				"liquid_blocks": [
 					"minecraft:flowing_water",
 					"minecraft:water"
@@ -92,6 +84,9 @@
 			"minecraft:behavior.player_ride_tamed": {},
 			"minecraft:ground_offset": {
 				"value": 0.25
+			},
+			"minecraft:movement": {
+				"value": 0.01
 			}
 		}
 	}
